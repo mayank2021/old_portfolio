@@ -1,0 +1,111 @@
+body{
+font-family:Merriweather;
+    margin: 0px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.top{
+  background-color: #ddf3f5;
+margin-top: 0px;
+}
+h1{
+  line-height: 2;
+  color:#66BFBF;
+  font-size: 5.652rem; /* 100%=16px
+  1em= 16px rem=rootem means ignore all other size and set to this*/
+  font-family: Sacramento;
+  margin-top:50px auto 0 auto;
+
+}
+h2 {
+  color:#66BFBF;
+  font-size:2.5rem;
+  font-family: Montserrat;
+}
+h3{
+  color: #11999E;
+  font-family: Montserrat;
+}
+.pro{
+  text-decoration: underline;
+}
+.cloud1{
+  position: absolute;
+}
+.cloud{
+  margin: 40px 40% 0 60%;
+}
+.contact-me{
+  background-color: #66bfbf;
+  margin: 0;
+  padding:25px;
+}
+
+a{
+    color: #11999E;
+}
+.programmer{
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skillimage{
+  width: 25%;
+}
+.one{
+  float: left;
+  margin-right: 30px;
+}
+.two{
+  float: right;
+  margin-left: 20px;
+}
+.profile{
+  width: 18%;
+}
+hr{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #e0dede;
+    border-width: 10px;
+    height: 0px;
+    width: 8%;
+}
+.middle-container{
+  padding: 100px 0 0 0;;
+  background-color: #f5f5f5;
+}
+.touch{
+  margin: 30PX;
+  font-weight: bold;
+}
+.stand{
+  color: #11999e;
+}
+.mayank{
+  text-align: center;
+    line-height: 2;
+}
+.footer-link:hover{
+  background-color: white;
+}
+ .btn{
+   color:white;
+   background-color:#66bfbf;
+   border: 0;
+   border-radius:5%;
+   font-size: 20px;
+   padding: 10px 20px;
+   font-weight: bold;
+   text-align: centre;
+   font-family: Montserrat;
+
+ }
+.btn:hover{
+  background-color: #01a9b4
+}
