@@ -1,59 +1,142 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> mayank's site</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="india.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-
-    <div class="top">
-      <img  class="cloud" src="images/cloud.png" alt="cloud-image">
-      <h1>I'm Mayank</h1>
-      <h2 class="programmer"><p>a <span class="pro">pro</span>grammer</p></h2>
-      <img class="cloud1"  src="images/cloud.png" alt="cloud-image">
-      <img class="mountain" src="images/mountain.png" alt="mountain-image">
-
-      <div class="middle-container">
-        <div>
-          <img class="profile" src="images/mayankcircle.png" alt="mayank's profile image">
-          <h2>Hello.</h2>
-          <p class="mayank">I'm Mayank and i love to code beautiful websites. <br>
-            coding is one of the best way for me to overcome stress and <br>
-            tension.
-          </p>
+    <head>
+        <title>
+           Hey! Mayank 
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon-m.ico">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fa950bb389.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="navbar" id="navbar">
+        <div class="hello" id="hello-dark-mode">
+          <img src="images/hello.svg" alt="hello" class="hello-img">
         </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="skillimage one" src="images/avatar.png" alt="skills">
-            <h3>Am a web designer</h3>
-            <p>If i wanted to work free.I'd choose to be a volunteer,not a freelancer,learn the difference.I started when i was 13 years old as the day passes my interest goes deep and deep in coding.</p>
-          </div>
-          <hr>
-          <div class="skill-row">
-            <img class="skillimage two" src="images/photo.png" alt="skill1">
-            <h3> Second love:photography</h3>
-            <p>capturing photo means capturing emotions.Whenever i fell free i look the nature and want to beautfy its beauty with my cam skills. </p>
-          </div>
+        <div class="links-div">
+        <a href="#" class="home nav-link" id="nav-link-one" >Home</a>
+         <a href="#work" class="about nav-link" id="nav-link-two">Work</a>
+         <a href="#contact" class="contact nav-link" id="nav-link-three">Contact</a>
+         <div class="dark-mode">
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="label" id="label">
+            <i class="fas fa-sun toggle-icon"></i>
+            <i class="fas fa-moon toggle-icon"></i>            
+            <div class="ball"></div>
+          </label>
         </div>
-        <hr>
-        <div class="touch">
-          <h2>Get In Touch</h2>
-          <h3>If you love coding as much as i.</h3>
-          <p class="stand">TOGETHER WE STAND, ALONE WE DOWN.</p>
-          <button class="btn" type="button">Contact me</button>
-
-         </div>
-        <div class="contact-me">
-          <a class="footer-link" href="">LinkedIn</a>
-        <a class="footer-link" href="">Twitter</a>
-        <a class="footer-link" href="">Instagram</a>
-        <p style="color:white;">@2020 mayankhere. </p>
+        </div>
       </div>
-
-  </body>
+        <div class="title" id="title">
+            <h1>I'm Mayank. <img class="top-cloud" src="images/cloud.svg" alt="cloud"></h1>
+            <h2 class="programmer">a <span class="web">pro</span>grammer</h2>
+            <img class="bottom-cloud" src="images/cloud.svg" alt="cloud">
+            <img class="mountain" src="images/mountain.png" alt="mountain">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img class="pro-img" src="images/profile-me-c.jpeg" alt="profile">
+              <h2>Hello.</h2>
+              <div class="hr-line"></div>
+              <p class="intro" id="dark-mode-one">I am a web developer. I <img class="heart-gif-top" src="https://media.giphy.com/media/LpDmM2wSt6Hm5fKJVa/giphy.gif" alt="heart"> coffee and &lt;/&gt;. <span class="code-works-quote">My code works everytime! &lt;I have no idea why&gt;.</span></p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="hr-line my-skills"></div>
+              <div class="skill-row">
+                <img class="design-and-dev skill-img skill-shadow" src="images/programming.svg" alt="programming">
+                <div class="text">
+                  <h3 id="dark-mode-h3-one">Design & Development</h3>
+                <p id="dark-mode-two">I started coding to fossick distinct fields and opportunities but as I went intensively, I fell in love with the process. I enhanced my wealth of experience designing and developing a web application. I affectionately play with colors & fonts because my  &lt;body/&gt; is highly indulged in it and I am unable to  &lt;br/&gt; this consistency.</p>
+                <div class="writing-quote-container">
+                  <h3 class="writing-quote dev-design">Everything is designed. Few things are designed well.</h3>
+                  <p class="writing-quote-author" id="author-name-one">~ Brian Reed</p>
+                </div>  
+              </div>
+                </div>
+              <div class="skill-row skill-row-opp">
+                <div class="text">
+                <h3 id="dark-mode-h3-two">Writing & Reading</h3>
+                <p id="dark-mode-three">I started writing when I was in 10th standard and gingerly I got an excessive interest in writing and reading and then I write to discover what I know. I started writing a word after a word after a word, surprisingly it becomes power. Now, I often like to write blogs, articles, and poetry.</p>
+              <div class="writing-quote-container writing-border">
+                <h3 class="writing-quote">Let me live, love and say it well in good sentences.</h3>
+                <p class="writing-quote-author" id="author-name-two">~ Sylvia Plath</p>
+              </div>
+              </div>
+              <img class="writing skill-img skill-shadow" src="images/letter.svg" alt="letter">
+              </div>
+            </div>
+            <a id="work"></a>
+            <hr>
+            <div class="skills">
+              <h2>What am I good at.</h2>
+              <div class="hr-line what-am-i-good-at"></div>
+              <div class="skill-row">
+                <div class="do-img">
+                   <img class="design-and-dev skill-img design-img" src="images/design.svg" alt="programming">
+                </div>
+                <div class="text">
+                  <h3 id="dark-mode-h3-three">Design what you thought.</h3>
+                <p id="dark-mode-four">I will opt your thoughts and give them appearance, layout, and content. I prefer to focus on the message you want to covey and with that, I choose colors and typography and make the design which looks simple and glamorous.</p>
+              </div>
+                </div>
+              <div class="skill-row skill-row-opp">
+                <div class="text">
+                <h3 id="dark-mode-h3-four">Develop what you dreamed.</h3>
+                <p id="dark-mode-five">I will elect your dream and code them with the trending technologies which make the development more elegant and elite or if you want any specific technology we will surely talk about it. I am a developer I will guide you through that.</p>
+              </div>
+              <div class="do-img">
+                <img class="writing skill-img develop-img" src="images/develop.svg" alt="letter">
+              </div>
+              </div>
+            </div>
+            <a id="contact"></a>
+              <hr>
+              <div class="skills">
+                <h2>I can help.</h2>
+                <div class="hr-line i-can-help"></div>
+                <div class="">
+                  <img class="" src="" alt="">
+                  <h3 class="extra-h3" id="dark-mode-h3-five">I'm currently available for your Queries.</h3>
+                  <p class="extra-p" id="dark-mode-six">If you have a project that you want to get started, think you need my help with something,<span class="code-works-quote"> or just want to discuss it, then don't procrastinate, get in touch instantly, say hey!!</span></p>
+                </div>
+                <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <div class="hr-line get-in-touch"></div>
+              <h3 class="extra-h3" id="dark-mode-h3-six">If you as excited as I am.</h3>
+              <p class="extra-p"  id="dark-mode-seven">Want a cup of coffee with me? Let's have it.<span class="code-works-quote">We can code while we drink coffee!</span> </p>
+              <a class="btn" id="btn" href="mailto:hey.mayank.here@gmail.com">CONTACT ME</a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom-container" id="bottom-container">
+            <div class="icon-container">
+              <a class="icon-div" id="icon-div-dark-one" href="https://www.instagram.com/a_believer_70/">
+                <i class="fab fa-instagram icon"></i>
+              </a>
+              <a class="icon-div" id="icon-div-dark-two" href="https://www.linkedin.com/in/mayank-sonkar-17a8401b6/">
+                <i class="fab fa-linkedin icon"></i>
+              </a>
+              <div>
+                <img class="heart-gif-bottom" src="https://media.giphy.com/media/kfRKF0iqA8jyDqq1nH/giphy.gif" alt="image">
+              </div>
+              <a class="icon-div" id="icon-div-dark-three" href="https://github.com/mayank2021">
+                <i class="fab fa-github icon"></i>
+              </a> 
+              <a class="icon-div" id="icon-div-dark-four" href="https://www.facebook.com/profile.php?id=100007711750608">
+                <i class="fab fa-facebook-square icon"></i>
+              </a>
+            </div>
+          <div>
+            <p>Inspiration: Sean Halpin</p>
+            <p class="copyright"> &COPY; 2021 Mayank Sonkar.</p>
+          </div>
+          </div>      
+          <script src="./index.js"></script>    
+    </body>
 </html>
